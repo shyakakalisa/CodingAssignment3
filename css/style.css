@@ -1,0 +1,105 @@
+body {
+    background-image: url("../images/kale-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #1f3d1f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    border-bottom: 2px solid #1f3d1f;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+ol {
+    line-height: 1.6;
+}
+
+li {
+    padding: 3px;
+}
+
+fieldset {
+    width: 250px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input {
+    margin: 5px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.rate {
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper div {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
